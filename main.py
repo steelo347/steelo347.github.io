@@ -23,7 +23,7 @@ transaction = (
         base_fee=base_fee,
     )
     .append_set_options_op(
-        home_domain = "steelo347.github.io"
+        home_domain = steelo347.github.io
     )
     .build()
 )
