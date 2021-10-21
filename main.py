@@ -7,8 +7,8 @@ import requests
 # 1. Load Keys
 server = Server("https://horizon-testnet.stellar.org")
 stellar_quest_keypair = Keypair.from_secret("Shhh")
-quest_account_pub_key = GBKABTRM7EHU23S4TMLXW547JDRBLAJ4JYKZOYY3D235UGHXZEGFPH32
-quest_account_priv_key = SDIDVISRSTMTI4YOFQRMMJ5UJS4BW6FGWPSTGK4WY6R5TJOFVLEDBWYN
+quest_account_pub_key = "GBKABTRM7EHU23S4TMLXW547JDRBLAJ4JYKZOYY3D235UGHXZEGFPH32"
+quest_account_priv_key = "SDIDVISRSTMTI4YOFQRMMJ5UJS4BW6FGWPSTGK4WY6R5TJOFVLEDBWYN"
 
 # 2. Use Stellar Quest Account and set multisign
 print("Building Transaction...")
